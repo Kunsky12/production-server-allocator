@@ -1,0 +1,12 @@
+Mapped Host Port: 7777 to Container Port: 44134
+/root/Desktop/KunKhmerBackend/kunkhmerbackend.js:110
+                freeMemory: serverLoad.freeMemory.toFixed(2) + ' MB',
+                                                  ^
+
+TypeError: Cannot read property 'toFixed' of undefined
+    at exec (/root/Desktop/KunKhmerBackend/kunkhmerbackend.js:110:51)
+    at ChildProcess.exithandler (child_process.js:285:7)
+    at ChildProcess.emit (events.js:198:13)
+    at maybeClose (internal/child_process.js:982:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:259:5)
+
